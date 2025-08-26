@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  font-weight: 400; /* normal */
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  color: hsl(212, 24%, 26%);
+  background-color: hsl(228, 33%, 97%);
+
+  padding: 0 1rem;
+}
+
+@theme {
+    --color-blueish: #5357B6;
+}
+
+button {
+  @apply hover:opacity-50 hover:cursor-pointer;
+}

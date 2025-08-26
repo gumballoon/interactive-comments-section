@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/francisco/Library/Mobile Documents/com~apple~CloudDocs/Desktop/CODE '24/Frontend Projects/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
