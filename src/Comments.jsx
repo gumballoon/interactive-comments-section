@@ -9,8 +9,6 @@ export default function Comments({ data }) {
     const [modal, setModal] = useState(false);
     const [toDelete, setToDelete] = useState('');
 
-    console.log(comments)
-
     function setScore(id, diff) {
         setComments(oldComments => {
             return oldComments.map(c => {

@@ -52,7 +52,5 @@ export default function CommentItem({ comment, setScore, currentUser, openModal,
 
             {isReplyVisible && < CommentNewForm comment={comment} currentUser={currentUser} addComment={addComment} buttonType={'reply'} addReply={addReply} toggleReply={toggleReply}/>}
         </>
-        
     )
-
 }
