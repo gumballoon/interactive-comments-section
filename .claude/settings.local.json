@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Read(//Users/francisco/Library/Mobile Documents/com~apple~CloudDocs/Desktop/CODE '24/Frontend Projects/**)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(npm run preview:*)"
     ],
     "deny": [],
     "ask": [],
